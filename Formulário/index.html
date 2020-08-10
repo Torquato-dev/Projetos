@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Formulário Simples</title>
+	<!--Ballo-Tamma-2-->
+	<link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/style.css">
+	<!--Meta-Tags-->
+	<meta charset="utf-8">
+</head>
+<body>
+
+	<div class="container">
+
+	<h2>Faça seu Orçamento</h2>
+
+	<form>
+		<fieldset>
+			<legend>Entre em contato conosco</legend>
+
+		<div class="input-text">
+
+			<span>*Nome e Sobrenome</span>
+			<div><input type="text" name="nome" required placeholder="Digite aqui o seu nome" /></div>
+
+			<span>*E-mail</span>
+			<div><input type="text" name="email" required placeholder="Digite aqui o seu E-mail" /></div>
+
+			<span>*Celeular ou Telefone</span>
+			<div><input type="text" name="celular" required placeholder="Digite aqui o seu número" /></div>
+
+		</div><!--input-text-->
+
+		<div class="radio-input">
+
+			<span>Selecione o seu Estado</span>
+
+			<div><input type="radio" name="estado"><span>PR</span></div>
+			<div><input type="radio" name="estado"><span>RJ</span></div>
+			<div><input type="radio" name="estado"><span>SP</span></div>
+
+		</div><!--radio-input-->
+
+		<div class="selec">
+
+			<span>Serviço desejado</span>
+			<div>
+				<select name="lista">
+				<option disabled selected >Selecione o tipo de Serviço</option>
+				<option>Criação do Seu Web Site</option>
+				<option>Criação de Aplicativos</option>
+				<option>Manutenção em seu Web Site</option>
+				<option>Manutenção em seu Aplicativo</option>
+				<option>Teste de Segurança</option>
+				<option>Mentoria</option>
+				</select>
+			</div>
+		</div><!--selec-->
+
+			<div class="duvida">
+
+				<span>*Tem alguma dúvida?</span>
+				<div><textarea placeholder="Tire a sua dúdida aqui!"></textarea></div>
+
+			</div><!--duvida-->
+
+			<div class="but">
+				<div><input type="submit" name="acao" value="Enviar!" /></div>
+			</div><!--but-->
+
+		</fieldset>
+	</form>
+</div><!--container-->
+
+</body>
+</html>
